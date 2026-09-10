@@ -1,0 +1,14 @@
+node_modules/
+main.js
+*.js.map
+tests/build/
+
+# Settings written by Obsidian in the installed plugin folder. They are not
+# source: they hold one vault's Jira host, and they belong to that vault.
+data.json
+
+# Track shell scripts even where a user-level excludes file ignores *.sh.
+!*.sh
+
+# Disposable output: builds, screenshots and scratch notes that are never committed.
+local.d/

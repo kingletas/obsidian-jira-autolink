@@ -1,0 +1,9 @@
+{
+  "id": "jira-autolink",
+  "name": "Jira Auto Link",
+  "version": "1.1.0",
+  "minAppVersion": "0.15.0",
+  "description": "Turns Jira issue keys like PROJ-123 into links, with an optional hover preview.",
+  "author": "Luis Tineo",
+  "isDesktopOnly": false
+}

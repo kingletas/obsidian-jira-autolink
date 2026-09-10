@@ -1,0 +1,31 @@
+a.jira-link {
+    color: var(--text-accent);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a.jira-link:hover {
+    text-decoration: underline;
+}
+
+.jira-preview {
+    position: fixed;
+    background: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    padding: 10px;
+    border-radius: 6px;
+    max-width: 300px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+}
+
+.jira-title {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.jira-meta {
+    margin-top: 6px;
+    font-size: 12px;
+    color: var(--text-muted);
+}
